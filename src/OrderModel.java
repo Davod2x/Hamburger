@@ -5,7 +5,7 @@ public class OrderModel {
 
     public OrderModel() {
         orders = new ArrayList<OrderItem>();
-        this.orders = orders;
+       // this.orders = orders;
 
     }
 
@@ -26,5 +26,10 @@ public class OrderModel {
 
     }
 
-
+    @Override
+    public String toString() {
+        return "OrderModel{" +
+                "order" + orders +
+                '}';
+    }
 }
