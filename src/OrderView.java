@@ -1,13 +1,15 @@
 import javax.swing.*;
 
 public abstract class  OrderView extends JPanel {
-    private JTextArea orderText;
-    private JLabel orderTotal;
+    protected JTextArea orderText;
+    protected JLabel orderTotal;
 
     private OrderController controller;
 
 
     public OrderView() {
+        orderText = new JTextArea();
+        orderTotal = new JLabel();
         initComponets();
     }
 

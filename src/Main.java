@@ -1,3 +1,5 @@
+import javax.swing.*;
+
 public class Main {
 
 
@@ -16,5 +18,17 @@ public class Main {
 
 
         System.out.println("Hello world!");
+
+
+        JFrame frame = new JFrame("Order Screen ");
+        OrderView ov = new AmazingOrderView();
+
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+
+
+        frame.getContentPane().add(ov);
+        frame.pack();
+        frame.setVisible(true);
     }
 }
