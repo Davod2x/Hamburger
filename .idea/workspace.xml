@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cf2126e-5194-42a5-a99c-dca5cb6dd57c" name="Changes" comment="OderView pt 1 done, now to time to work on myamazingorderview">
+    <list default="true" id="6cf2126e-5194-42a5-a99c-dca5cb6dd57c" name="Changes" comment="Gui Done, I HAVE THE BEST VIEW">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AmazingOrderView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AmazingOrderView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OrderView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OrderView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +23,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="3efd3c03-9610-4d97-9a02-f4b11e798251" />
+        <option name="url" value="https://github.com/Davod2x/Hamburger.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -80,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681088612560</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Gui Done, I HAVE THE BEST VIEW">
+      <created>1681101137598</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681101137598</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -88,6 +105,7 @@
     <MESSAGE value="OrderModel done" />
     <MESSAGE value="OrderModel done with Test" />
     <MESSAGE value="OderView pt 1 done, now to time to work on myamazingorderview" />
-    <option name="LAST_COMMIT_MESSAGE" value="OderView pt 1 done, now to time to work on myamazingorderview" />
+    <MESSAGE value="Gui Done, I HAVE THE BEST VIEW" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gui Done, I HAVE THE BEST VIEW" />
   </component>
 </project>
