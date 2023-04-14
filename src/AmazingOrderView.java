@@ -104,8 +104,11 @@ public class AmazingOrderView extends OrderView{
         button6.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Product Soda = new Product("Soda",2);
-                controller.add(Soda);
+                Combo HamburgerCmb = new Combo();
+                HamburgerCmb.addItem(Hamburger);
+                HamburgerCmb.addItem(Fries);
+                HamburgerCmb.addItem(Soda);
+                controller.add(HamburgerCmb);
             }
         });
 

@@ -13,9 +13,9 @@ public class Combo implements OrderItem{
 
     @Override
     public String getitemName() {
-        String yes = null;
+        String yes = " ";
         for (int i = 0; i < items.size(); i++){
-            yes = String.valueOf(items.indexOf(i));
+            yes += String.valueOf(items.indexOf(i));
         }
         return yes;
     }
@@ -34,9 +34,9 @@ public class Combo implements OrderItem{
     @Override
     public String toString() {
 
-        return "Combo{" +
-                getitemName() + "Price" + getPrice() +
-                '}';
+        return "Combo:" +
+                getitemName() + "\t Price  " + getPrice() +
+                '\n';
     }
 
     public void addItem(OrderItem oi){
