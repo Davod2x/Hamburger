@@ -28,6 +28,7 @@ public class Combo implements OrderItem{
             //items.get(i).
         }
         price = price + price/10;
+       // String.format(2f, price);
         return price;
     }
 

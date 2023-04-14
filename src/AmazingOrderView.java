@@ -58,7 +58,7 @@ public class AmazingOrderView extends OrderView{
         button1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                //Product Hamburger = new Product("Hamburger",6.25);
+
                 controller.add(Hamburger);
 
 
@@ -68,7 +68,7 @@ public class AmazingOrderView extends OrderView{
         button2.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-               // Product ChickenS = new Product("Chicken Sandwich",8);
+
                 controller.add(ChickenS);
             }
         });
@@ -76,7 +76,7 @@ public class AmazingOrderView extends OrderView{
         button3.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                //   Product Fries = new Product("Fries",3);
+
                 controller.add(Fries);
             }
         });
@@ -84,7 +84,7 @@ public class AmazingOrderView extends OrderView{
         button4.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-              //  Product Soda = new Product("Soda",2);
+
                 controller.add(Soda);
             }
         });
