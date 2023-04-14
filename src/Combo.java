@@ -4,7 +4,9 @@ public class Combo implements OrderItem{
     private ArrayList<OrderItem> items;
 
 
-    public Combo(ArrayList<OrderItem> items) {
+
+
+    public Combo() {
         items = new ArrayList<OrderItem>();
         this.items = items;
     }
@@ -31,6 +33,7 @@ public class Combo implements OrderItem{
 
     @Override
     public String toString() {
+
         return "Combo{" +
                 getitemName() + "Price" + getPrice() +
                 '}';

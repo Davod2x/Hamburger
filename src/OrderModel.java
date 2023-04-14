@@ -28,8 +28,7 @@ public class OrderModel {
 
     @Override
     public String toString() {
-        return "OrderModel{" +
-                "order" + orders +
-                '}';
+        return
+                "order: \n" + orders;
     }
 }

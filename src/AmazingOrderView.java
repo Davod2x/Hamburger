@@ -1,10 +1,13 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class AmazingOrderView extends OrderView{
 
     @Override
     public void initComponets() {
+       // addController();
         //setPreferredSize(new Dimension());
         BoxLayout bl = new BoxLayout(this,BoxLayout.Y_AXIS);
       //  orderText.setPreferredSize(new Dimension(20,20));
@@ -47,6 +50,73 @@ public class AmazingOrderView extends OrderView{
         orderTotal.setText("Total Amount:" );
         text.add(orderText);
         total.add(orderTotal);
+        Product Hamburger = new Product("Hamburger",6.25);
+        Product ChickenS = new Product("Chicken Sandwich",8);
+        Product Fries = new Product("Fries",3);
+        Product Soda = new Product("Soda",2);
+
+        button1.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                //Product Hamburger = new Product("Hamburger",6.25);
+                controller.add(Hamburger);
+
+
+            }
+        });
+
+        button2.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+               // Product ChickenS = new Product("Chicken Sandwich",8);
+                controller.add(ChickenS);
+            }
+        });
+
+        button3.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                //   Product Fries = new Product("Fries",3);
+                controller.add(Fries);
+            }
+        });
+
+        button4.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+              //  Product Soda = new Product("Soda",2);
+                controller.add(Soda);
+            }
+        });
+
+        button5.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                Combo ChickenCmb = new Combo();
+                ChickenCmb.addItem(ChickenS);
+                ChickenCmb.addItem(Fries);
+                ChickenCmb.addItem(Soda);
+                controller.add(ChickenCmb);
+            }
+        });
+
+        button6.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Product Soda = new Product("Soda",2);
+                controller.add(Soda);
+            }
+        });
+
+
+
+
+
+
+
+
+
         add(info);
         add(items);
         add(info3);
@@ -57,11 +127,6 @@ public class AmazingOrderView extends OrderView{
 
 
 
-
-
-
-
-
-
     }
+
 }

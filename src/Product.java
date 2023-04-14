@@ -19,9 +19,9 @@ public class Product implements OrderItem{
 
     @Override
     public String toString() {
-        return "Product{" +
-                "itemName='" + itemName + '\'' +
-                ", price=" + price +
-                '}';
+        return
+                " " + itemName + '\t' +
+                "Price:" + price + "\n"
+                ;
     }
 }

@@ -8,6 +8,7 @@ public class Main {
         Product Burger = new Product("Burger",7.50);
         Product Chicken = new Product("Chicken",6);
 
+
         OrderModel om = new OrderModel();
         om.addItem(Pizza);
         om.addItem(Burger);
@@ -22,6 +23,8 @@ public class Main {
 
         JFrame frame = new JFrame("Order Screen ");
         OrderView ov = new AmazingOrderView();
+        OrderModel omm = new OrderModel();
+        OrderController oc = new OrderController(omm,ov);
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 

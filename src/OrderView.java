@@ -4,7 +4,7 @@ public abstract class  OrderView extends JPanel {
     protected JTextArea orderText;
     protected JLabel orderTotal;
 
-    private OrderController controller;
+    protected OrderController controller;
 
 
     public OrderView() {
